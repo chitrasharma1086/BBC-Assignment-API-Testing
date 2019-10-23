@@ -9,6 +9,7 @@ import io.restassured.response.Response;
 public class Utilities {
 
 	public static Response doGetRequest(String endpoint) {
+		// To make get request for given endpoint
 		RestAssured.defaultParser = Parser.JSON;
 		RestAssured.baseURI = "https://www.metaweather.com/api";
 		return given().headers("Content-Type", ContentType.JSON, "Accept", ContentType.JSON).when().get(endpoint).then()
