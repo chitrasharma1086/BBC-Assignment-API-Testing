@@ -53,6 +53,7 @@ Feature: Open MetaWeather API testing for BBC assignment
     And I see that response body contains following keys
 
     Examples: 
+      | key1               | key2               | key3                   | key4     | key5     | key6         | key7     |
       | weather_state_name | weather_state_abbr | wind_direction_compass | min_temp | max_temp | air_pressure | humidity |
 
   @manual
