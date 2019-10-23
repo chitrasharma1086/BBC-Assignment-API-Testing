@@ -21,7 +21,7 @@ Feature: Open MetaWeather API testing for BBC assignment
     And I see that response body has correct woeid <woeid> for respective location
     And I see that response body has correct timezone "<timezone>" for respective location
     And I see that response body has consolidated weather forecast for 6 days
-    And I see that response body has total 6 sources
+    And I see that response body has total 7 sources
 
     Examples: 
       | endpoint           | country_name  | woeid   | timezone      |
